@@ -27,7 +27,7 @@
 namespace pocketmine\entity;
 
 
-class Creeper extends Monster implements Explosive{
+class Creeper extends Monster{
         public function getName() {
                 return "Creeper";
         }
