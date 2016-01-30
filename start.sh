@@ -2,7 +2,7 @@
 DIR="$(cd -P "$( dirname "${BASH_SOURCE[0]}" )" && pwd)"
 cd "$DIR"
 
-DO_LOOP="no"
+DO_LOOP="yes"
 
 while getopts "p:f:l" OPTION 2> /dev/null; do
 	case ${OPTION} in
