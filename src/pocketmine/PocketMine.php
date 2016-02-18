@@ -71,8 +71,8 @@ namespace pocketmine {
 		@define('pocketmine\PATH', \getcwd() . DIRECTORY_SEPARATOR);
 	}
 
-	if(version_compare("7.0", PHP_VERSION) > 0){
- 		echo "[CRITICAL] You must use PHP >= 7.0" . PHP_EOL;
+	if(version_compare("5.0", PHP_VERSION) > 0){
+ 		echo "[CRITICAL] You must use PHP >= 5.0" . PHP_EOL;
  		echo "[CRITICAL] Please use the installer provided on the homepage." . PHP_EOL;
  		exit(1);
  	}
